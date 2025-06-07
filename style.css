@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+h1 {
+    color:black;
+    font-weight: 800;
+    box-shadow: 0 0 3rem;   
+}
+
+h1:hover {
+    background-color:darkseagreen;
+    color:yellow;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box {
+    margin-top: 4%;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.8);
+    /* opacity: 0.1; */
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.9rem;
+    border: pink;
+    box-shadow: 0 0 1rem;
+    background-color: #191913;
+    color: white;
+    margin-top: 5%;
+}
+
+
+
+#reset-btn:hover {
+    border:  solid palevioletred;
+    transition: ease-in-out;
+    transition-duration: infinite;
+    transition-timing-function: step-end;
+    transition-delay: 0s;
+}
+
+#reset-btn:active {
+    background-color: green;
+    opacity: 3rem;
+    cursor: pointer;
+    color: black;
+}
+
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.9rem;
+    border: pink;
+    box-shadow: 0 0 1rem;
+    background-color:darkseagreen;
+    color: black;
+    cursor: pointer;
+}
+
+#new-btn:hover {
+    border:  solid darkkhaki;
+    transition: ease-in-out;
+    transition-duration: infinite;
+    transition-timing-function: step-end;
+    transition-delay: 0s;
+}
+
+#new-btn:active {
+    background-color: green;
+    opacity: 3rem;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+     display: none; 
+}
+
+#msg:hover {
+    color: lightskyblue;
+    font-weight: 800;
+    font-style: oblique;
+    box-shadow:0 0 1rem;
+    opacity: 0.5rem;
+    transition-property: ease-in ease-out;
+    transition-duration: infinite;
+    transition-timing-function: step-start;
+    transition-delay: 0.1s;
+
+    /* animation-name: scale; */
+
+    /* font-family: 'Times New Roman', Times, serif; */
+}
