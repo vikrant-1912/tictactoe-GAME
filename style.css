@@ -144,3 +144,67 @@ h1:hover {
 
     /* font-family: 'Times New Roman', Times, serif; */
 }
+
+
+
+
+
+/* ✅ Issues:
+Boxes might overflow or look too big on small devices.
+
+Buttons and text sizes don't scale well for mobile.
+
+No layout adjustments for landscape or smaller screen widths. */
+
+
+/* ✅ Fix: Add Responsive Media Queries */
+
+/* @media (max-width: 768px) {
+    .game {
+        width: 90vmin;
+        height: 90vmin;
+    }
+
+    .box {
+        height: 28vmin;
+        width: 28vmin;
+        font-size: 10vmin;
+    }
+
+    #reset-btn, #new-btn {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    #msg {
+        font-size: 6vmin;
+    }
+} */
+
+@media (max-width: 480px) {
+    .game {
+        width: 95vmin;
+        height: 95vmin;
+    }
+
+    .box {
+        height: 30vmin;
+        width: 30vmin;
+        font-size: 12vmin;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #reset-btn, #new-btn {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    #msg {
+        font-size: 7vmin;
+    }
+}
+
+
