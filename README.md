@@ -25,7 +25,24 @@ A fun and interactive **Tic Tac Toe** game built using **HTML**, **CSS**, and **
 - **Deployment**: [Vercel](https://vercel.com)
 - vikrant-1912 - VERCEL id
 
+## 💡 What I Learned
+
+- DOM manipulation and event handling in JavaScript
+
+- Building logic for win/draw conditions
+
+- Mobile-first responsive design principles
+
+- Vercel deployment workflow
 ---
+
+📃 License
+This project is open-source and available under the MIT License.
+
+
+Made with ❤️ by Vikrant Khatana
+
+
 
 ## 🚀 Getting Started
 
@@ -37,16 +54,6 @@ cd tic-tac-toe
 open index.html in browser
 
 
-💡 What I Learned
-DOM manipulation and event handling in JavaScript
 
-Building logic for win/draw conditions
 
-Mobile-first responsive design principles
 
-Vercel deployment workflow
-
-📃 License
-This project is open-source and available under the MIT License.
-
-Made with ❤️ by Vikrant Khatana
